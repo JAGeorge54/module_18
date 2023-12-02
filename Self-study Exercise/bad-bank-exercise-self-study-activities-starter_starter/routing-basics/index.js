@@ -13,7 +13,7 @@ function Spa() {
     <hr />
     <Route path="/" exact    component={Home}     />
     <Route path="/about/"    component={About}    />
-    <Route path="/products/" component={Products} />
+    <Route path="/products" component={Products} />
     </div>
     </HashRouter>
   );
@@ -22,4 +22,4 @@ function Spa() {
 ReactDOM.render(
   <Spa/>,
   document.getElementById('root')
-)
+);
