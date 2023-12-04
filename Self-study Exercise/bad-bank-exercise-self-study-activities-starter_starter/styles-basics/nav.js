@@ -8,7 +8,7 @@ function Nav() {
         <Link className="nav-link" to="/about/">About</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="Products">Products</Link>
+        <Link className="nav-link" to="/Products/">Products</Link>
       </li>
     </ul>
   );
